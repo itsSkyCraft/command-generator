@@ -1,0 +1,31 @@
+{
+  "name": "command-generator",
+  "version": "1.0.0",
+  "description": "A Package For generating a Command Line Interfaces Using nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsSkyCraft/command-generator.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsSkyCraft/command-generator/issues"
+  },
+  "homepage": "https://github.com/itsSkyCraft/command-generator#readme",
+  "bin": {
+    "command-generator": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "didyoumean": "^1.2.1",
+    "enquirer": "^2.3.6",
+    "path": "^0.12.7"
+  }
+}
